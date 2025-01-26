@@ -1,0 +1,446 @@
+:root {
+  --font-primary: 'roca', serif;
+  --font-secondary: "franklin-gothic-atf", sans-serif;
+  --font-third: 'termina', sans-serif;
+  --color-black: #272D33;
+  --color-beige: #F4F1EC;
+  --color-purple: #AB5EED;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-purple);
+}
+
+:root{
+    --bg-color: #F4F1EC;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+/* Typography */
+
+h1, h2, h3, h4 {
+  font-family: var(--font-primary);
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.8em;
+  font-weight: normal;
+  line-height: 1.3;
+}
+
+p {
+  font-family: var(--font-secondary);
+  color: #383838;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  font-size: .8rem;
+}
+
+.my-max-length {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 48em;
+  width: 100%;
+}
+
+.small-max-length {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 28em;
+  width: 100%;
+}
+
+.termina {
+  font-family: var(--font-third);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.light {
+  font-weight: 100;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.letterspacing {
+  letter-spacing: 2px;
+}
+
+.footer-btn {
+  border: 1px solid var(--color-black);
+  padding: 1em 2em 1em;
+  border-radius: 30px;
+  transition: all .3s ease-in-out;
+}
+
+.footer-btn:hover {
+  background-color: var(--color-purple);
+  color: white;
+}
+
+/* Colours & Links & Extras */
+
+a {
+  text-decoration: none;
+}
+
+.black {
+  color: var(--color-black);
+}
+
+.white {
+  color: #ffffff;
+}
+
+.purple {
+  color: var(--color-purple);
+}
+
+.border {
+  border-bottom: 1px solid var(--color-black);
+}
+
+/* Backgrounds */
+
+.light-background {
+  background-color: var(--color-beige);
+}
+
+.dark-background {
+  background-color: #333132;
+}
+
+/* Spacing */
+
+.my-padding {
+  padding-top: 6.5rem;
+  padding-bottom: 6.5rem;
+}
+
+.my-padding-btm {
+  padding-bottom: 6.5rem;
+}
+
+.my-padding-top {
+  padding-top: 6.5rem;
+}
+
+.border-btm {
+  border-bottom: 1px solid var(--color-black);
+}
+
+/* Buttons */
+
+.enter-here-btn {
+  border: 1px solid var(--color-black);
+  color: var(--color-black);
+  text-decoration: none;
+  font-family: var(--font-third);
+  font-weight: 600;
+  padding: 1.5em 2.5em 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background: linear-gradient(to right, var(--color-beige) 50%, var(--color-black) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .3s ease-in-out;
+}
+
+.enter-here-btn:hover {
+  background-position: right bottom;
+  color: var(--color-beige);
+  cursor: pointer;
+}
+
+/* Animation */
+
+.fadein {
+  opacity: 0;
+  transition: all 1.5s;
+  transform: translate(0, 100px);
+}
+
+.fadein.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  /* make things invisible upon start */
+  -webkit-animation: fadeIn ease-in 1;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+/* Navigation */
+
+nav a {
+  text-decoration: none;
+  color: var(--color-navy);
+  transition: color .2s ease;
+  letter-spacing: 1px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: .3em;
+}
+
+nav a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+nav a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+nav a:hover {
+  color: black;
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+}
+
+.main-navigation li a {
+  font-family: var(--font-third);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 0 1em;
+  padding: 0;
+  display: block;
+}
+
+/* Footer */
+
+.footer-code-text {
+  text-align: center;
+}
+
+
+.footer-copyright-text,
+.footer-email-text {
+  text-align: center;
+  opacity: 39%;
+  padding: .5em 0;
+}
+
+.sm-icons {
+  text-align: center;
+}
+
+.sm-icon {
+  width: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.sm-icon:hover {
+  opacity: 50%;
+}
+
+/* Home Page */
+
+.logo,
+.footer-logo {
+  width: 50px;
+}
+
+.intro-link {
+  transition: all .2s ease-in-out;
+}
+
+.intro-link:hover {
+  color: var(--color-purple);
+}
+
+.home-intro {
+  font-family: var(--font-primary);
+  font-weight: 700;
+}
+
+.home-bio {
+  line-height: 1.2;
+}
+
+.home-project-image img, {
+  transition: all .2s ease-in-out;
+}
+
+.home-project-image:hover img {
+  transform: scale(1.015);
+}
+
+.images .image{
+  position: relative;
+}
+
+.images .first{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.images .image:hover .first{
+  z-index: 0;
+}
+
+/* Rolling Images */
+
+logo-slider {
+   
+  $min-image-size: 50px;
+  $max-image-size: 100px;
+  
+  --image-size: #{$max-image-size};
+  
+  padding: 20px;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;	
+	position: relative;
+	display: flex;
+
+	div { 
+		display: flex;
+		position: relative;
+		animation: marquee 30s linear infinite;
+    justify-content: space-around;   
+	}
+		
+	img {
+		display: block;
+		min-width: var(--image-size);
+		height: var(--image-size);
+		margin: 0 1vw;
+	}
+  
+  &:after {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		background: linear-gradient(to right, white, rgba(white, 0) 80px, rgba(white, 0) calc(100% - 80px), white);
+	}
+  
+  @media (max-width:900px) {
+    --image-size: #{$min-image-size};
+    --image-size: min(max(#{$min-image-size}, 10vw), #{$max-image-size});
+	}
+
+}
+
+@keyframes marquee {
+	0%   { transform: translateX(0%); }
+	100% { transform: translateX(-100%); }
+}
+
+/* Projects */
+
+.next-project-btn h3 {
+  transition: all .2s ease-in-out;
+}
+
+.next-project-btn:hover h3 {
+  transform: scale(1.015);
+}
+
+
+@media only screen and (min-width: 38em) {
+
+.footer-code-text,
+.footer-copyright-text {
+  text-align: left;
+}
+
+.footer-email-text {
+  text-align: right;
+  padding: 2em 0;
+}
+
+.sm-icons {
+  text-align: right;
+}
+
+.logo {
+  width: 30px;
+}
+
+}
