@@ -123,6 +123,10 @@ a {
   border-bottom: 1px solid var(--color-black);
 }
 
+.border-radius {
+  border-radius: 30px;
+}
+
 /* Backgrounds */
 
 .light-background {

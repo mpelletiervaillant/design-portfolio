@@ -50,17 +50,15 @@
   nextUrl: /campus-map
   gridClass: m-1-2 l-1-4
 
-- projectLink: /campus-map
-  projectTitle: Campus Map
-  projectShortDescription: Illustration
+- projectLink: /career-week
+  projectTitle: Career Week
+  projectShortDescription: Branding
   projectLongDescription: After learning about the old brand's limitation and clients' needs, I had the opportunity to re design the Health & Wellness brand at uOttawa. The new materials are adaptable for any future need!
-  projectMainImageOne: /map-small-main-image.png
-  projectMainImageTwo: /map-small-main-image-2.png
-  projectWorkImageOne: /map-small-main-image.png
-  projectWorkImageTwo: /map-small-main-image-2.png
-  projectBanner: /gee-gees-camps/gee-gees-camps-banner.jpg
-  workBanner: /gee-gees-camps/gee-gees-camps-banner.jpg
-  projectHeaderImage: wellness-case-study-banner
+  projectMainImageOne: /career-week-small-main-image.png
+  projectMainImageTwo: /career-week-small-main-image-2.png
+  projectWorkImageOne: /career-week-small-main-image.png
+  projectWorkImageTwo: /career-week-small-main-image-2.png
+  projectHeaderImage: /career-week/career-week-main-banner.png
   nextProject: Canadian Geographic
   nextUrl: /canadian-geographics
   gridClass: m-1-2 l-1-4
