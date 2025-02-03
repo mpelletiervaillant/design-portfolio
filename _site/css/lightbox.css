@@ -193,3 +193,264 @@ body.lb-disable-scrolling {
   cursor: pointer;
   opacity: 1;
 }
+
+/* Light Box */
+
+.image-gallery-container {
+  margin: auto;
+}
+
+.image-gallery-subcontainer {
+  width: 100%;
+  margin: auto;
+}
+
+.my-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: .5rem;
+  overflow-x: hidden;
+}
+
+.gallery-img {
+  width: 100%;
+  min-height: 150px;
+  background-position: center;
+  background-size: cover
+}
+
+.gallery-img:nth-child(1){
+  background-image: url(../images/play/aerial.jpg);
+  grid-column: 1/5;
+}
+
+.gallery-img:nth-child(2){
+  background-image: url(../images/play/night-time.jpg);
+  grid-column: 5/9;
+}
+
+.gallery-img:nth-child(3){
+  background-image: url(../images/play/coffee-shop-2.jpg);
+  grid-column: 1/5;
+}
+
+.gallery-img:nth-child(4){
+  background-image: url(../images/play/florist.jpg);
+  grid-column: 5/9;
+}
+
+.gallery-img:nth-child(5){
+  background-image: url(../images/play/bookstore.jpg);
+  grid-column: 1/5;
+}
+
+.gallery-img:nth-child(6){
+  background-image: url(../images/play/living-room.jpg);
+  grid-column: 5/9;
+}
+
+.gallery-img:nth-child(7){
+  background-image: url(../images/play/pizza.jpg);
+  grid-column: 1/5;
+}
+
+.gallery-img:nth-child(8){
+  background-image: url(../images/play/ottawa.jpg);
+  grid-column: 5/9;
+}
+
+.gallery-img:nth-child(9){
+  background-image: url(../images/play/lego-castle.jpg);
+  grid-column: 1/5;
+}
+
+.gallery-img:nth-child(10){
+  background-image: url(../images/play/strawberries.jpg);
+  grid-column: 5/9;
+}
+
+.gallery-img:nth-child(11){
+  background-image: url(../images/play/swimming.jpg);
+  grid-column: 1/5;
+}
+
+.gallery-img:nth-child(12){
+  background-image: url(../images/play/coffee-fireplace.jpg);
+  grid-column: 5/9;
+}
+
+.gallery-img:nth-child(13){
+  background-image: url(../images/play/garden.jpg);
+  grid-column: 1/5;
+}
+
+.gallery-img:nth-child(14){
+  background-image: url(../images/play/flower-girl.gif);
+  grid-column: 5/9;
+}
+
+.gallery-img:nth-child(15){
+  background-image: url(../images/play/thank-you-workers-1.jpg);
+  grid-column: 1/9;
+}
+
+.gallery-img:nth-child(16){
+  background-image: url(../images/play/thank-you-workers-2.jpg);
+  grid-column: 1/9;
+}
+
+.gallery-img:nth-child(17){
+  background-image: url(../images/play/bobs-burgers.jpg);
+  grid-column: 1/5;
+}
+
+.gallery-img:nth-child(18){
+  background-image: url(../images/play/animal-crossing-village.jpg);
+  grid-column: 5/9;
+}
+
+.gallery-img:nth-child(19){
+  background-image: url(../images/play/dashboard.gif);
+  grid-column: 1/5;
+}
+
+.gallery-img:nth-child(20){
+  background-image: url(../images/play/desk-animation.mp4);
+  grid-column: 5/9;
+}
+
+.gallery-img:nth-child(21){
+  background-image: url(../images/play/shelf.jpg);
+  grid-column: 1/5;
+}
+
+.gallery-img:nth-child(22){
+  background-image: url(../images/play/fall-porch.mp4);
+  grid-column: 5/9;
+}
+
+.gallery-img:nth-child(23){
+  background-image: url(../images/play/character-2.jpg);
+  grid-column: 1/5;
+}
+
+.gallery-img:nth-child(24){
+  background-image: url(../images/play/venison-gif.gif);
+  grid-column: 5/9;
+}
+
+.gallery-img:nth-child(25){
+  background-image: url(../images/play/venison-1.jpg);
+  grid-column: 1/5;
+}
+
+.gallery-img:nth-child(26){
+  background-image: url(../images/play/venison-2.jpg);
+  grid-column: 5/9;
+}
+
+.gallery-img:nth-child(27){
+  background-image: url(../images/play/watt-iq-1.jpg);
+  grid-column: 1/5;
+}
+
+.gallery-img:nth-child(28){
+  background-image: url(../images/play/watt-iq-2.jpg);
+  grid-column: 5/9;
+}
+
+.gallery-img:nth-child(29){
+  background-image: url(../images/play/card-4.jpg);
+  grid-column: 1/5;
+}
+
+.gallery-img:nth-child(30){
+  background-image: url(../images/play/card-5.jpg);
+  grid-column: 5/9;
+}
+
+.gallery-img:nth-child(31){
+  background-image: url(../images/play/card-6.jpg);
+  grid-column: 1/5;
+}
+
+.gallery-img:nth-child(32){
+  background-image: url(../images/play/card-7.jpg);
+  grid-column: 5/9;
+}
+
+.gallery-img:nth-child(33){
+  background-image: url(../images/play/card-1.jpg);
+  grid-column: 1/5;
+}
+
+.gallery-img:nth-child(34){
+  background-image: url(../images/play/card-2.png);
+  grid-column: 5/9;
+}
+
+.gallery-img:nth-child(35){
+  background-image: url(../images/play/card-3.png);
+  grid-column: 1/5;
+}
+
+.gallery-img:nth-child(36){
+  background-image: url(../images/play/houses-1.jpg);
+  grid-column: 5/9;
+}
+
+.gallery-img:nth-child(37){
+  background-image: url(../images/play/houses-2.jpg);
+  grid-column: 1/5;
+}
+
+.gallery-img:nth-child(38){
+  background-image: url(../images/play/athenian-1.jpg);
+  grid-column: 5/9;
+}
+
+.gallery-img:nth-child(39){
+  background-image: url(../images/play/athenian-2.jpg);
+  grid-column: 1/5;
+}
+
+.gallery-img:nth-child(40){
+  background-image: url(../images/play/athenian-3.jpg);
+  grid-column: 5/9;
+}
+
+.gallery-img:nth-child(41){
+  background-image: url(../images/play/york-1.jpg);
+  grid-column: 1/5;
+}
+
+.gallery-img:nth-child(42){
+  background-image: url(../images/play/york-2.jpg);
+  grid-column: 5/9;
+}
+
+.gallery-img:nth-child(43){
+  background-image: url(../images/play/york-3.jpg);
+  grid-column: 1/5;
+}
+
+.gallery-img:nth-child(44){
+  background-image: url(../images/play/york-4.jpg);
+  grid-column: 5/9;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .gallery-img {
+    min-height: 200px;
+  }
+  
+ 
+}
+
+@media(max-width:1600px) {
+ 
+  .image-gallery-container {
+    width: 100%;
+  }
+}

@@ -1,13 +1,11 @@
 - projectLink: /recruitment
   projectTitle: Open Minds. Brighter Futures.
-  projectShortDescription: uOttawa's Recruitment Campaign
+  projectShortDescription: A bit of everything
   projectLongDescription: Earlier this year, I created various social media templates to promote Gee-Gees games, highlight players and share important sports information.
   projectMainImageOne: /recruitment-large-main-image.png
   projectMainImageTwo: /recruitment-large-main-image-2.png
   projectWorkImageOne: /recruitment-small-main-image.png
   projectWorkImageTwo: /recruitment-small-main-image-2.png
-  projectBanner: /gee-gees/gee-gees-banner.gif
-  workBanner: /gee-gees/gee-gees-banner.gif
   projectHeaderImage: /recruitment-large-main-image-2.png
   nextProject: BCES Global
   nextUrl: /bces-global
@@ -15,15 +13,13 @@
 
 - projectLink: /bces-global
   projectTitle: BCES Global
-  projectShortDescription: Branding
+  projectShortDescription: Logo Design
   projectLongDescription: I had the pleasure to work with Canadian Geographic on their 10, 000 Changes project. It consisted of creating educational modules on the effects of plastic on our environement. Each module included a explainer video as well as a infographic spread in their issue!
   projectMainImageOne: /bces-small-main-image.png
   projectMainImageTwo: /bces-small-main-image-2.png
   projectWorkImageOne: /bces-small-main-image.png
-  projectWorkImageTwo: /bces-small-main-image.png
-  projectBanner: /can-geo/cangeo-banner.jpg
-  workBanner: /can-geo/cangeo-banner.jpg
-  projectHeaderImage: cangeo-case-study-banner
+  projectWorkImageTwo: /bces-small-main-image-2.png
+  projectHeaderImage: /bces-global/bces-main-banner.png
   nextProject: Orléans Softball
   nextUrl: /orleans-softball
   gridClass: m-1-2 l-1-4
@@ -35,25 +31,21 @@
   projectMainImageOne: /softball-small-main-image.png
   projectMainImageTwo: /softball-small-main-image-2.png
   projectWorkImageOne: /softball-small-main-image.png
-  projectWorkImageTwo: /softball-small-main-image.png
-  projectBanner: /welcome-week/welcome-week-banner.jpg
-  workBanner: /welcome-week/welcome-week-banner-small.jpg
-  projectHeaderImage: welcome-week-case-study-banner
+  projectWorkImageTwo: /softball-small-main-image-2.png
+  projectHeaderImage: /softball/orleans-softball-main-banner.png
   nextProject: Ottawa Gee-Gees
   nextUrl: /gee-gees
   gridClass: m-1-2 l-1-4
 
 - projectLink: /gee-gees
   projectTitle: Ottawa Gee-Gees
-  projectShortDescription: Illustration
+  projectShortDescription: A bit of everything
   projectLongDescription: After learning about the old brand's limitation and clients' needs, I had the opportunity to re design the Health & Wellness brand at uOttawa. The new materials are adaptable for any future need!
   projectMainImageOne: /gee-gees-small-main-image.png
   projectMainImageTwo: /gee-gees-small-main-image-2.png
   projectWorkImageOne: /gee-gees-small-main-image.png
-  projectWorkImageTwo: /gee-gees-small-main-image.png
-  projectBanner: /orleans-softball/orleans-softball-banner.jpg
-  workBanner:  /orleans-softball/orleans-softball-banner.jpg
-  projectHeaderImage: wellness-case-study-banner
+  projectWorkImageTwo: /gee-gees-small-main-image-2.png
+  projectHeaderImage: /gee-gees/gee-gees-main-banner.png
   nextProject: Campus Map
   nextUrl: /campus-map
   gridClass: m-1-2 l-1-4
@@ -65,7 +57,7 @@
   projectMainImageOne: /map-small-main-image.png
   projectMainImageTwo: /map-small-main-image-2.png
   projectWorkImageOne: /map-small-main-image.png
-  projectWorkImageTwo: /map-small-main-image.png
+  projectWorkImageTwo: /map-small-main-image-2.png
   projectBanner: /gee-gees-camps/gee-gees-camps-banner.jpg
   workBanner: /gee-gees-camps/gee-gees-camps-banner.jpg
   projectHeaderImage: wellness-case-study-banner
@@ -75,15 +67,13 @@
 
 - projectLink: /canadian-geographic
   projectTitle: Canadian Geographic
-  projectShortDescription: 1000 Plastics Project
+  projectShortDescription: Illustration
   projectLongDescription: After learning about the old brand's limitation and clients' needs, I had the opportunity to re design the Health & Wellness brand at uOttawa. The new materials are adaptable for any future need!
   projectMainImageOne: /canadian-geographic-large-main-image.png
   projectMainImageTwo: /canadian-geographic-large-main-image-2.png
-  projectWorkImageOne: /canadian-geographic-large-main-image.png
-  projectWorkImageTwo: /canadian-geographic-large-main-image-2.png
-  projectBanner: /gee-gees-camps/gee-gees-camps-banner.jpg
-  workBanner: /gee-gees-camps/gee-gees-camps-banner.jpg
-  projectHeaderImage: wellness-case-study-banner
+  projectWorkImageOne: /canadian-geographic-small-main-image.png
+  projectWorkImageTwo: /canadian-geographic-small-main-image-2.png
+  projectHeaderImage: /can-geo/can-geo-main-banner.png
   nextProject: Open Minds. Brighter Futures.
   nextUrl: /recruitment
   gridClass: m-1 l-1
