@@ -1,5 +1,5 @@
 - projectLink: /recruitment
-  projectTitle: Open Minds. Brighter Futures.
+  projectTitle: uOttawa Recruitment
   projectShortDescription: A bit of everything
   projectLongDescription: Earlier this year, I created various social media templates to promote Gee-Gees games, highlight players and share important sports information.
   projectMainImageOne: /recruitment-large-main-image.png
@@ -46,8 +46,8 @@
   projectWorkImageOne: /gee-gees-small-main-image.png
   projectWorkImageTwo: /gee-gees-small-main-image-2.png
   projectHeaderImage: /gee-gees/gee-gees-main-banner.png
-  nextProject: Campus Map
-  nextUrl: /campus-map
+  nextProject: Career Week (Coming Soon)
+  nextUrl: /career-week
   gridClass: m-1-2 l-1-4
 
 - projectLink: /career-week
@@ -60,7 +60,7 @@
   projectWorkImageTwo: /career-week-small-main-image-2.png
   projectHeaderImage: /career-week/career-week-main-banner.png
   nextProject: Canadian Geographic
-  nextUrl: /canadian-geographics
+  nextUrl: /canadian-geographic
   gridClass: m-1-2 l-1-4
 
 - projectLink: /canadian-geographic

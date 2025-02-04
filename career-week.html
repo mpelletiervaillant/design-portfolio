@@ -1,0 +1,20 @@
+---
+layout: main
+title: Mélany Pelletier · Career Week
+meta: Branding project for Career Week.
+---
+<section class="text-center my-padding border-btm">
+    {% assign data=site.data.projects[4] %}
+    {% include project-headers.html data=data %}
+    <h1 class="tera pad-t-2">Project coming soon!</h1>
+
+</section>
+
+<section class="pad-t pad-b border-btm">
+    <div class="gutter wrapper text-center fadein">
+        <a class="next-project-btn" href="{{site.baseurl}}{{data.nextUrl}}">
+            <p class="push-1-2 uppercase letterspacing termina milli purple">View next project</p>
+            <h3 class="black push-0 peta">{{data.nextProject}}</h3>
+        </a>
+    </div>
+  </section>
