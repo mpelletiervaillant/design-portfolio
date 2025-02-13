@@ -60,6 +60,10 @@ p {
   font-family: var(--font-third);
 }
 
+.roca {
+  font-family: var(--font-primary);
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -76,6 +80,11 @@ p {
   font-style: italic;
 }
 
+.italics-light {
+  font-weight: 100;
+  font-style: italic;
+}
+
 .underline {
   text-decoration: underline;
   text-decoration-thickness: 2px;
@@ -86,15 +95,14 @@ p {
 }
 
 .footer-btn {
-  border: 1px solid var(--color-black);
-  padding: 1em 2em 1em;
-  border-radius: 30px;
+  border-bottom: 2px solid var(--color-purple);
   transition: all .3s ease-in-out;
 }
 
 .footer-btn:hover {
-  background-color: var(--color-purple);
-  color: white;
+  border-bottom: 2px solid var(--color-black);
+  color: var(--color-purple);
+
 }
 
 /* Colours & Links & Extras */
@@ -301,6 +309,9 @@ nav a:hover {
   text-align: center;
 }
 
+.footer-border {
+  text-align: center;
+}
 
 .footer-copyright-text,
 .footer-email-text {
@@ -314,12 +325,20 @@ nav a:hover {
 }
 
 .sm-icon {
-  width: 20px;
+  width: 30px;
   transition: all .3s ease-in-out;
 }
 
 .sm-icon:hover {
   opacity: 50%;
+}
+
+.footer-nav {
+  transition: all .2s ease-in-out;
+}
+
+.footer-nav:hover {
+  color: var(--color-purple);
 }
 
 /* Home Page */
@@ -523,17 +542,25 @@ logo-slider {
   text-align: left;
 }
 
+.footer-border {
+  text-align: left;
+}
+
 .footer-email-text {
   text-align: right;
   padding: 2em 0;
 }
 
 .sm-icons {
-  text-align: right;
+  text-align: left;
 }
 
 .logo {
   width: 40px;
+}
+
+.footer-border {
+  border-right: 1px solid var(--color-black);
 }
 
 }
