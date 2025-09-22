@@ -325,7 +325,7 @@ body.lb-disable-scrolling {
 }
 
 .gallery-img:nth-child(22){
-  background-image: url(../images/play/desk-animation.mp4);
+  background-image: url(../images/play/dnd.jpg);
   grid-column: 5/9;
 }
 
@@ -335,7 +335,7 @@ body.lb-disable-scrolling {
 }
 
 .gallery-img:nth-child(24){
-  background-image: url(../images/play/fall-porch.mp4);
+  background-image: url(../images/play/fall-porch.png);
   grid-column: 5/9;
 }
 
